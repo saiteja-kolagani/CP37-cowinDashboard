@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #161625;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.content-container {
+  min-width: 90%;
+  padding: 20px;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+.logo-image {
+  width: 30px;
+  margin-right: 10px;
+}
+.app-name {
+  color: #2cc6c6;
+  font-size: 20px;
+}
+.app-title {
+  font-size: 20px;
+  color: #ffffff;
+}
+.chart-container {
+  background-color: #1c1c2b;
+  margin-block: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.chart-heading {
+  font-size: 16px;
+  color: #cbd5e1;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  width: 440px;
+}
+.failure-text {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Caveat";
+}
+
